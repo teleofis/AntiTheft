@@ -1,0 +1,1 @@
+/home/levap/bin/Python-1.5.2/python -O -OO -S -tt /home/levap/bin/Python-1.5.2/Lib/compileall.py .
