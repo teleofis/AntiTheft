@@ -34,13 +34,13 @@ import gsm
 #
 # START DEBUG
 #
-import SER
-SER.set_speed('9600')
-class SERstdout:
-    def write(self,s):
-        SER.send('%d %s\r\n' % (MOD.secCounter(), s))
-sys.stdout = SERstdout()
-sys.stderr = SERstdout()
+# import SER
+# SER.set_speed('9600')
+# class SERstdout:
+#     def write(self,s):
+#         SER.send('%d %s\r\n' % (MOD.secCounter(), s))
+# sys.stdout = SERstdout()
+# sys.stderr = SERstdout()
 #
 # END DEBUG
 #
